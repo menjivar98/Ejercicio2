@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+    <header> <h1 align = "center">Curriculum Vitae</h1></header>
+    <section>
+        <article>
+            <div>
+                <form action = "#" method = "post">
+                <fieldset>
+                    <legend>Personal Data</legend>
+                    <div>
+                        <label for = "DUI">DUI</label>
+                        <input type = "text" name = "DUI" placeholder = "00000000" required>
+                        <!------------------------------------------>
+                        <label for = "First Name: "> First Name: </label>
+                        <input type = "text" name = "First Name" placeholder = "Fernando Andres" required>
+                        <! ------------------------------------- ---->
+                        <label for = "Last Name: "> Last Name: </label>
+                        <input type = "text" name = "Last Name" placeholder = "Quezada Menjivar" required>
+                        
+                        <! -------------------------- -->
+                        <laberl for = "Gender">Gender</laberl>
+                        <input type = "radio" name="M">M
+                        <input type = "radio" name= "F">F
+                    </div>
+                    <div>
+                       <br>
+                        <label for = "Contact Number"> Contact Number: </label>
+                        <input type = "text" name = "Contact Number" >
+                        <label for = "Birthday">Birthday</Label>
+                        <input type = "date" required value="07-02-1998" > 
+                        <label for ="Civil Status">Civil Status</label> 
+                        <select>
+                            <option> Soltero</option>
+                            <option> Casado</option>
+                            <option> Divorciado  </option>
+                        </select>
+
+                        <label for = "Image">Image</label>
+                        <input type="file">
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Work Expirence</legend>
+                    <div>
+                        <textarea rows="20" cols="220" placeholder="Experince"></textarea>
+                    </div>
+                </fieldset> 
+                <br>
+                <fieldset>
+                    <legend>Academic Training</legend>
+                    <div>
+                        <textarea rows="20" cols="220" placeholder="Academic"></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Further Training</legend>
+                    <di>
+                        <fieldset>
+                            <legend>Programming Languages</legend>
+                            <div>
+                                <input type="checkbox" name= "check []"> Java
+                                <input type="checkbox" name= "check []"> C#
+                                <input type="checkbox" name= "check []"> Pyhton
+                                <input type="checkbox" name= "check []"> C++
+                                <input type="checkbox" name= "check []"> Ruby
+                            </div>
+                    </fieldset>
+                    </di>
+                    <di>
+                        <fieldset>
+                            <legend> Web Teconoligies</legend>
+                            <div>
+                                <input type="checkbox" name= "check []"> HTML5
+                                <input type="checkbox" name= "check []"> CSS/CSS3
+                                <input type="checkbox" name= "check []"> materialize Css
+                                <input type="checkbox" name= "check []"> Javascript
+                                <input type="checkbox" name= "check []"> Node.js
+                                <input type="checkbox" name= "check []"> Spring MVC
+                            </div>
+                        </fieldset>
+                    </di>
+
+                </fieldset>
+                <br>
+                <div>
+                    <input type="submit" value="Send" >
+                    <button><a href="./index.html">Regresar</a></button>
+                </div>
+
+
+                
+                
+                
+                
+                
+                
+                </form>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
